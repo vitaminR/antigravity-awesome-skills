@@ -1098,6 +1098,15 @@
     "source": "unknown"
   },
   {
+    "id": "linkedin-crucible",
+    "path": "skills/linkedin-crucible",
+    "category": "uncategorized",
+    "name": "linkedin-crucible",
+    "description": "Multi-lane workflow system for LinkedIn content creation and execution. Use this skill when planning, creating, or optimizing LinkedIn strategy, posts, campaigns, or engagement initiatives. Organizes work through specialized crucibles (Content, Growth, Operations) with defined agents, protocols, and conveyor belt sequencing.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
     "id": "lint-and-validate",
     "path": "skills/lint-and-validate",
     "category": "uncategorized",

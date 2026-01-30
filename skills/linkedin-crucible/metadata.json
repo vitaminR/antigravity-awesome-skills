@@ -1,0 +1,12 @@
+{
+	"version": "1.0.0",
+	"organization": "AntiGravity",
+	"date": "January 2026",
+	"name": "LinkedIn:Crucible",
+	"abstract": "Multi-lane workflow system for LinkedIn content creation and strategic execution. Organizes LinkedIn work through specialized crucibles (Content, Growth, Operations) with defined agents, protocols, and conveyor belt sequencing. Each lane has specific responsibilities, quality gates, and signature labels that prove completion.",
+	"references": [
+		"https://www.linkedin.com/help/",
+		"https://business.linkedin.com/content-marketing/",
+		"https://www.linkedin.com/help/linkedin/answer/131088"
+	]
+}
