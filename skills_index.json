@@ -378,6 +378,15 @@
     "source": "unknown"
   },
   {
+    "id": "automate-whatsapp",
+    "path": "skills/automate-whatsapp",
+    "category": "uncategorized",
+    "name": "automate-whatsapp",
+    "description": "Build WhatsApp automations with Kapso workflows: configure WhatsApp triggers, edit workflow graphs, manage executions, deploy functions, and use databases/integrations for state. Use when automating WhatsApp conversations and event handling.",
+    "risk": "safe",
+    "source": "https://github.com/gokapso/agent-skills/tree/master/skills/automate-whatsapp"
+  },
+  {
     "id": "autonomous-agent-patterns",
     "path": "skills/autonomous-agent-patterns",
     "category": "uncategorized",
@@ -439,6 +448,15 @@
     "description": "Specialized skill for building production-ready serverless applications on AWS. Covers Lambda functions, API Gateway, DynamoDB, SQS/SNS event-driven patterns, SAM/CDK deployment, and cold start optimization.",
     "risk": "unknown",
     "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "aws-skills",
+    "path": "skills/aws-skills",
+    "category": "uncategorized",
+    "name": "aws-skills",
+    "description": "AWS development with infrastructure automation and cloud architecture patterns",
+    "risk": "safe",
+    "source": "https://github.com/zxkane/aws-skills"
   },
   {
     "id": "azure-functions",
@@ -547,6 +565,15 @@
     "description": "Optimize Bazel builds for large-scale monorepos. Use when configuring Bazel, implementing remote execution, or optimizing build performance for enterprise codebases.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "beautiful-prose",
+    "path": "skills/beautiful-prose",
+    "category": "uncategorized",
+    "name": "beautiful-prose",
+    "description": "Hard-edged writing style contract for timeless, forceful English prose without AI tics",
+    "risk": "safe",
+    "source": "https://github.com/SHADOWPR0/beautiful_prose"
   },
   {
     "id": "behavioral-modes",
@@ -801,6 +828,15 @@
     "source": "unknown"
   },
   {
+    "id": "clarity-gate",
+    "path": "skills/clarity-gate",
+    "category": "uncategorized",
+    "name": "clarity-gate",
+    "description": "Pre-ingestion verification for epistemic quality in RAG systems with 9-point verification and Two-Round HITL workflow",
+    "risk": "safe",
+    "source": "https://github.com/frmoretto/clarity-gate"
+  },
+  {
     "id": "claude-code-guide",
     "path": "skills/claude-code-guide",
     "category": "uncategorized",
@@ -808,6 +844,42 @@
     "description": "Master guide for using Claude Code effectively. Includes configuration templates, prompting strategies \"Thinking\" keywords, debugging techniques, and best practices for interacting with the agent.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "claude-ally-health",
+    "path": "skills/claude-ally-health",
+    "category": "uncategorized",
+    "name": "claude-ally-health",
+    "description": "A health assistant skill for medical information analysis, symptom tracking, and wellness guidance.",
+    "risk": "safe",
+    "source": "https://github.com/huifer/Claude-Ally-Health"
+  },
+  {
+    "id": "claude-scientific-skills",
+    "path": "skills/claude-scientific-skills",
+    "category": "uncategorized",
+    "name": "claude-scientific-skills",
+    "description": "Scientific research and analysis skills",
+    "risk": "safe",
+    "source": "https://github.com/K-Dense-AI/claude-scientific-skills"
+  },
+  {
+    "id": "claude-speed-reader",
+    "path": "skills/claude-speed-reader",
+    "category": "uncategorized",
+    "name": "claude-speed-reader",
+    "description": "-Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP highlighting",
+    "risk": "safe",
+    "source": "https://github.com/SeanZoR/claude-speed-reader"
+  },
+  {
+    "id": "claude-win11-speckit-update-skill",
+    "path": "skills/claude-win11-speckit-update-skill",
+    "category": "uncategorized",
+    "name": "claude-win11-speckit-update-skill",
+    "description": "Windows 11 system management",
+    "risk": "safe",
+    "source": "https://github.com/NotMyself/claude-win11-speckit-update-skill"
   },
   {
     "id": "clean-code",
@@ -981,6 +1053,15 @@
     "source": "unknown"
   },
   {
+    "id": "commit",
+    "path": "skills/commit",
+    "category": "uncategorized",
+    "name": "commit",
+    "description": "Create commit messages following Sentry conventions. Use when committing code changes, writing commit messages, or formatting git history. Follows conventional commits with Sentry-specific issue references.",
+    "risk": "safe",
+    "source": "https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/commit"
+  },
+  {
     "id": "competitive-landscape",
     "path": "skills/competitive-landscape",
     "category": "uncategorized",
@@ -1116,6 +1197,24 @@
     "source": "unknown"
   },
   {
+    "id": "context-compression",
+    "path": "skills/context-compression",
+    "category": "uncategorized",
+    "name": "context-compression",
+    "description": "Design and evaluate compression strategies for long-running sessions",
+    "risk": "safe",
+    "source": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-compression"
+  },
+  {
+    "id": "context-degradation",
+    "path": "skills/context-degradation",
+    "category": "uncategorized",
+    "name": "context-degradation",
+    "description": "Recognize patterns of context failure: lost-in-middle, poisoning, distraction, and clash",
+    "risk": "safe",
+    "source": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-degradation"
+  },
+  {
     "id": "context-driven-development",
     "path": "skills/context-driven-development",
     "category": "uncategorized",
@@ -1123,6 +1222,15 @@
     "description": "Use this skill when working with Conductor's context-driven development methodology, managing project context artifacts, or understanding the relationship between product.md, tech-stack.md, and workflow.md files.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "context-fundamentals",
+    "path": "skills/context-fundamentals",
+    "category": "uncategorized",
+    "name": "context-fundamentals",
+    "description": "Understand what context is, why it matters, and the anatomy of context in agent systems",
+    "risk": "safe",
+    "source": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-fundamentals"
   },
   {
     "id": "context-management-context-restore",
@@ -1150,6 +1258,15 @@
     "description": "Elite AI context engineering specialist mastering dynamic context management, vector databases, knowledge graphs, and intelligent memory systems. Orchestrates context across multi-agent workflows, enterprise AI systems, and long-running projects with 2024/2025 best practices. Use PROACTIVELY for complex AI orchestration.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "context-optimization",
+    "path": "skills/context-optimization",
+    "category": "uncategorized",
+    "name": "context-optimization",
+    "description": "Apply compaction, masking, and caching strategies",
+    "risk": "safe",
+    "source": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-optimization"
   },
   {
     "id": "context-window-management",
@@ -1233,6 +1350,15 @@
     "source": "unknown"
   },
   {
+    "id": "create-pr",
+    "path": "skills/create-pr",
+    "category": "uncategorized",
+    "name": "create-pr",
+    "description": "Create pull requests following Sentry conventions. Use when opening PRs, writing PR descriptions, or preparing changes for review. Follows Sentry's code review guidelines.",
+    "risk": "safe",
+    "source": "https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/create-pr"
+  },
+  {
     "id": "crewai",
     "path": "skills/crewai",
     "category": "uncategorized",
@@ -1258,6 +1384,15 @@
     "description": "Write modern C# code with advanced features like records, pattern matching, and async/await. Optimizes .NET applications, implements enterprise patterns, and ensures comprehensive testing. Use PROACTIVELY for C# refactoring, performance optimization, or complex .NET solutions.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "culture-index",
+    "path": "skills/culture-index",
+    "category": "uncategorized",
+    "name": "culture-index",
+    "description": "Index and search culture documentation",
+    "risk": "safe",
+    "source": "https://github.com/trailofbits/skills/tree/main/plugins/culture-index"
   },
   {
     "id": "customer-support",
@@ -1449,6 +1584,15 @@
     "source": "unknown"
   },
   {
+    "id": "deep-research",
+    "path": "skills/deep-research",
+    "category": "uncategorized",
+    "name": "deep-research",
+    "description": "Execute autonomous multi-step research using Google Gemini Deep Research Agent. Use for: market analysis, competitive landscaping, literature reviews, technical research, due diligence. Takes 2-10 minutes but produces detailed, cited reports. Costs $2-5 per task.",
+    "risk": "safe",
+    "source": "https://github.com/sanjay3290/ai-skills/tree/main/skills/deep-research"
+  },
+  {
     "id": "defi-protocol-templates",
     "path": "skills/defi-protocol-templates",
     "category": "uncategorized",
@@ -1510,6 +1654,15 @@
     "description": "You are a configuration management expert specializing in validating, testing, and ensuring the correctness of application configurations. Create comprehensive validation schemas, implement configurat",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "design-md",
+    "path": "skills/design-md",
+    "category": "uncategorized",
+    "name": "design-md",
+    "description": "Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files",
+    "risk": "safe",
+    "source": "https://github.com/google-labs-code/stitch-skills/tree/main/skills/design-md"
   },
   {
     "id": "design-orchestration",
@@ -1800,6 +1953,15 @@
     "source": "unknown"
   },
   {
+    "id": "evaluation",
+    "path": "skills/evaluation",
+    "category": "uncategorized",
+    "name": "evaluation",
+    "description": "Build evaluation frameworks for agent systems",
+    "risk": "safe",
+    "source": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/evaluation"
+  },
+  {
     "id": "event-sourcing-architect",
     "path": "skills/event-sourcing-architect",
     "category": "uncategorized",
@@ -1836,6 +1998,69 @@
     "source": "unknown"
   },
   {
+    "id": "expo-deployment",
+    "path": "skills/expo-deployment",
+    "category": "uncategorized",
+    "name": "expo-deployment",
+    "description": "Deploy Expo apps to production",
+    "risk": "safe",
+    "source": "https://github.com/expo/skills/tree/main/plugins/expo-deployment"
+  },
+  {
+    "id": "fal-audio",
+    "path": "skills/fal-audio",
+    "category": "uncategorized",
+    "name": "fal-audio",
+    "description": "Text-to-speech and speech-to-text using fal.ai audio models",
+    "risk": "safe",
+    "source": "https://github.com/fal-ai-community/skills/blob/main/skills/claude.ai/fal-audio/SKILL.md"
+  },
+  {
+    "id": "fal-generate",
+    "path": "skills/fal-generate",
+    "category": "uncategorized",
+    "name": "fal-generate",
+    "description": "Generate images and videos using fal.ai AI models",
+    "risk": "safe",
+    "source": "https://github.com/fal-ai-community/skills/blob/main/skills/claude.ai/fal-generate/SKILL.md"
+  },
+  {
+    "id": "fal-image-edit",
+    "path": "skills/fal-image-edit",
+    "category": "uncategorized",
+    "name": "fal-image-edit",
+    "description": "AI-powered image editing with style transfer and object removal",
+    "risk": "safe",
+    "source": "https://github.com/fal-ai-community/skills/blob/main/skills/claude.ai/fal-image-edit/SKILL.md"
+  },
+  {
+    "id": "fal-platform",
+    "path": "skills/fal-platform",
+    "category": "uncategorized",
+    "name": "fal-platform",
+    "description": "Platform APIs for model management, pricing, and usage tracking",
+    "risk": "safe",
+    "source": "https://github.com/fal-ai-community/skills/blob/main/skills/claude.ai/fal-platform/SKILL.md"
+  },
+  {
+    "id": "fal-upscale",
+    "path": "skills/fal-upscale",
+    "category": "uncategorized",
+    "name": "fal-upscale",
+    "description": "Upscale and enhance image and video resolution using AI",
+    "risk": "safe",
+    "source": "https://github.com/fal-ai-community/skills/blob/main/skills/claude.ai/fal-upscale/SKILL.md"
+  },
+  {
+    "id": "fal-workflow",
+    "path": "skills/fal-workflow",
+    "category": "uncategorized",
+    "name": "fal-workflow",
+    "description": "Generate workflow JSON files for chaining AI models",
+    "risk": "safe",
+    "source": "https://github.com/fal-ai-community/skills/blob/main/skills/claude.ai/fal-workflow/SKILL.md"
+  },
+  {
     "id": "fastapi-pro",
     "path": "skills/fastapi-pro",
     "category": "uncategorized",
@@ -1852,6 +2077,15 @@
     "description": "Create production-ready FastAPI projects with async patterns, dependency injection, and comprehensive error handling. Use when building new FastAPI applications or setting up backend API projects.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "ffuf-claude-skill",
+    "path": "skills/ffuf-claude-skill",
+    "category": "uncategorized",
+    "name": "ffuf-claude-skill",
+    "description": "Web fuzzing with ffuf",
+    "risk": "safe",
+    "source": "https://github.com/jthack/ffuf_claude_skill"
   },
   {
     "id": "file-path-traversal",
@@ -1879,6 +2113,15 @@
     "description": "Expert at handling file uploads and cloud storage. Covers S3, Cloudflare R2, presigned URLs, multipart uploads, and image optimization. Knows how to handle large files without blocking. Use when: file upload, S3, R2, presigned URL, multipart.",
     "risk": "unknown",
     "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "find-bugs",
+    "path": "skills/find-bugs",
+    "category": "uncategorized",
+    "name": "find-bugs",
+    "description": "Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit code on the current branch.",
+    "risk": "safe",
+    "source": "https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/find-bugs"
   },
   {
     "id": "finishing-a-development-branch",
@@ -1917,6 +2160,15 @@
     "source": "unknown"
   },
   {
+    "id": "fix-review",
+    "path": "skills/fix-review",
+    "category": "uncategorized",
+    "name": "fix-review",
+    "description": "Verify fix commits address audit findings without new bugs",
+    "risk": "safe",
+    "source": "https://github.com/trailofbits/skills/tree/main/plugins/fix-review"
+  },
+  {
     "id": "flutter-expert",
     "path": "skills/flutter-expert",
     "category": "uncategorized",
@@ -1933,6 +2185,33 @@
     "description": "Optimize any form that is NOT signup or account registration \u2014 including lead capture, contact, demo request, application, survey, quote, and checkout forms. Use when the goal is to increase form completion rate, reduce friction, or improve lead quality without breaking compliance or downstream workflows.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "fp-ts-errors",
+    "path": "skills/fp-ts-errors",
+    "category": "uncategorized",
+    "name": "fp-ts-errors",
+    "description": "Handle errors as values using fp-ts Either and TaskEither for cleaner, more predictable TypeScript code. Use when implementing error handling patterns with fp-ts.",
+    "risk": "safe",
+    "source": "https://github.com/whatiskadudoing/fp-ts-skills"
+  },
+  {
+    "id": "fp-ts-pragmatic",
+    "path": "skills/fp-ts-pragmatic",
+    "category": "uncategorized",
+    "name": "fp-ts-pragmatic",
+    "description": "A practical, jargon-free guide to fp-ts functional programming - the 80/20 approach that gets results without the academic overhead. Use when writing TypeScript with fp-ts library.",
+    "risk": "safe",
+    "source": "https://github.com/whatiskadudoing/fp-ts-skills"
+  },
+  {
+    "id": "fp-ts-react",
+    "path": "skills/fp-ts-react",
+    "category": "uncategorized",
+    "name": "fp-ts-react",
+    "description": "Practical patterns for using fp-ts with React - hooks, state, forms, data fetching. Use when building React apps with functional programming patterns. Works with React 18/19, Next.js 14/15.",
+    "risk": "safe",
+    "source": "https://github.com/whatiskadudoing/fp-ts-skills"
   },
   {
     "id": "framework-migration-code-migrate",
@@ -1967,6 +2246,15 @@
     "category": "uncategorized",
     "name": "free-tool-strategy",
     "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes \u2014 lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as marketing,\" \"free tool,\" \"marketing tool,\" \"calculator,\" \"generator,\" \"interactive tool,\" \"lead gen tool,\" \"build a tool for leads,\" or \"free resource.\" This skill bridges engineering and marketing \u2014 useful for founders and technical marketers.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "frontend-slides",
+    "path": "skills/frontend-slides",
+    "category": "uncategorized",
+    "name": "Frontend Slides",
+    "description": "Create zero-dependency, animation-rich HTML presentations that run entirely in the browser. This skill helps non-designers discover their preferred aesthetic through visual exploration (\"show, don't tell\"), then generates production-quality slide dec",
     "risk": "unknown",
     "source": "unknown"
   },
@@ -2286,6 +2574,24 @@
     "source": "vibeship-spawner-skills (Apache 2.0)"
   },
   {
+    "id": "hugging-face-cli",
+    "path": "skills/hugging-face-cli",
+    "category": "uncategorized",
+    "name": "hugging-face-cli",
+    "description": "Execute Hugging Face Hub operations using the `hf` CLI. Use when the user needs to download models/datasets/spaces, upload files to Hub repositories, create repos, manage local cache, or run compute jobs on HF infrastructure. Covers authentication, file transfers, repository creation, cache operations, and cloud compute.",
+    "risk": "safe",
+    "source": "https://github.com/huggingface/skills/tree/main/skills/hugging-face-cli"
+  },
+  {
+    "id": "hugging-face-jobs",
+    "path": "skills/hugging-face-jobs",
+    "category": "uncategorized",
+    "name": "hugging-face-jobs",
+    "description": "This skill should be used when users want to run any workload on Hugging Face Jobs infrastructure. Covers UV scripts, Docker-based jobs, hardware selection, cost estimation, authentication with tokens, secrets management, timeout configuration, and result persistence. Designed for general-purpose compute workloads including data processing, inference, experiments, batch jobs, and any Python-based tasks. Should be invoked for tasks involving cloud compute, GPU workloads, or when users mention running jobs on Hugging Face infrastructure without local setup.",
+    "risk": "safe",
+    "source": "https://github.com/huggingface/skills/tree/main/skills/hugging-face-jobs"
+  },
+  {
     "id": "hybrid-cloud-architect",
     "path": "skills/hybrid-cloud-architect",
     "category": "uncategorized",
@@ -2329,6 +2635,15 @@
     "description": "This skill should be used when the user asks to \"test for insecure direct object references,\" \"find IDOR vulnerabilities,\" \"exploit broken access control,\" \"enumerate user IDs or object references,\" or \"bypass authorization to access other users' data.\" It provides comprehensive guidance for detecting, exploiting, and remediating IDOR vulnerabilities in web applications.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "imagen",
+    "path": "skills/imagen",
+    "category": "uncategorized",
+    "name": "imagen",
+    "description": "This skill generates images using Google Gemini's image generation model (`gemini-3-pro-image-preview`). It enables seamless image creation during any Claude Code session - whether you're building frontend UIs, creating documentation, or need visual",
+    "risk": "safe",
+    "source": "https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen"
   },
   {
     "id": "incident-responder",
@@ -2428,6 +2743,15 @@
     "description": "Configure Istio traffic management including routing, load balancing, circuit breakers, and canary deployments. Use when implementing service mesh traffic policies, progressive delivery, or resilience patterns.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "iterate-pr",
+    "path": "skills/iterate-pr",
+    "category": "uncategorized",
+    "name": "iterate-pr",
+    "description": "Iterate on a PR until CI passes. Use when you need to fix CI failures, address review feedback, or continuously push fixes until all checks are green. Automates the feedback-fix-push-wait cycle.",
+    "risk": "safe",
+    "source": "https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/iterate-pr"
   },
   {
     "id": "java-pro",
@@ -2592,6 +2916,15 @@
     "source": "unknown"
   },
   {
+    "id": "linear-claude-skill",
+    "path": "skills/linear-claude-skill",
+    "category": "uncategorized",
+    "name": "linear-claude-skill",
+    "description": "Manage Linear issues, projects, and teams",
+    "risk": "safe",
+    "source": "https://github.com/wrsmith108/linear-claude-skill"
+  },
+  {
     "id": "linkerd-patterns",
     "path": "skills/linkerd-patterns",
     "category": "uncategorized",
@@ -2700,6 +3033,15 @@
     "source": "unknown"
   },
   {
+    "id": "makepad-skills",
+    "path": "skills/makepad-skills",
+    "category": "uncategorized",
+    "name": "makepad-skills",
+    "description": "Makepad UI development skills for Rust apps: setup, patterns, shaders, packaging, and troubleshooting.",
+    "risk": "safe",
+    "source": "https://github.com/ZhangHanDong/makepad-skills"
+  },
+  {
     "id": "malware-analyst",
     "path": "skills/malware-analyst",
     "category": "uncategorized",
@@ -2761,6 +3103,15 @@
     "description": "Implement memory-safe programming with RAII, ownership, smart pointers, and resource management across Rust, C++, and C. Use when writing safe systems code, managing resources, or preventing memory bugs.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "memory-systems",
+    "path": "skills/memory-systems",
+    "category": "uncategorized",
+    "name": "memory-systems",
+    "description": "Design short-term, long-term, and graph-based memory architectures",
+    "risk": "safe",
+    "source": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/memory-systems"
   },
   {
     "id": "mermaid-expert",
@@ -2925,6 +3276,15 @@
     "source": "unknown"
   },
   {
+    "id": "multi-agent-patterns",
+    "path": "skills/multi-agent-patterns",
+    "category": "uncategorized",
+    "name": "multi-agent-patterns",
+    "description": "Master orchestrator, peer-to-peer, and hierarchical multi-agent architectures",
+    "risk": "safe",
+    "source": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/multi-agent-patterns"
+  },
+  {
     "id": "multi-cloud-architecture",
     "path": "skills/multi-cloud-architecture",
     "category": "uncategorized",
@@ -2950,6 +3310,42 @@
     "description": "Multiplayer game development principles. Architecture, networking, synchronization.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "n8n-code-python",
+    "path": "skills/n8n-code-python",
+    "category": "uncategorized",
+    "name": "n8n-code-python",
+    "description": "Write Python code in n8n Code nodes. Use when writing Python in n8n, using _input/_json/_node syntax, working with standard library, or need to understand Python limitations in n8n Code nodes.",
+    "risk": "safe",
+    "source": "https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-code-python"
+  },
+  {
+    "id": "n8n-mcp-tools-expert",
+    "path": "skills/n8n-mcp-tools-expert",
+    "category": "uncategorized",
+    "name": "n8n-mcp-tools-expert",
+    "description": "Expert guide for using n8n-mcp MCP tools effectively. Use when searching for nodes, validating configurations, accessing templates, managing workflows, or using any n8n-mcp tool. Provides tool selection guidance, parameter formats, and common patterns.",
+    "risk": "safe",
+    "source": "https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-mcp-tools-expert"
+  },
+  {
+    "id": "n8n-node-configuration",
+    "path": "skills/n8n-node-configuration",
+    "category": "uncategorized",
+    "name": "n8n-node-configuration",
+    "description": "Operation-aware node configuration guidance. Use when configuring nodes, understanding property dependencies, determining required fields, choosing between get_node detail levels, or learning common configuration patterns by node type.",
+    "risk": "safe",
+    "source": "https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-node-configuration"
+  },
+  {
+    "id": "nanobanana-ppt-skills",
+    "path": "skills/nanobanana-ppt-skills",
+    "category": "uncategorized",
+    "name": "nanobanana-ppt-skills",
+    "description": "AI-powered PPT generation with document analysis and styled images",
+    "risk": "safe",
+    "source": "https://github.com/op7418/NanoBanana-PPT-Skills"
   },
   {
     "id": "neon-postgres",
@@ -3103,6 +3499,15 @@
     "description": "You are an SLO (Service Level Objective) expert specializing in implementing reliability standards and error budget-based practices. Design SLO frameworks, define SLIs, and build monitoring that balances reliability with delivery velocity.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "observe-whatsapp",
+    "path": "skills/observe-whatsapp",
+    "category": "uncategorized",
+    "name": "observe-whatsapp",
+    "description": "Observe and troubleshoot WhatsApp in Kapso: debug message delivery, inspect webhook deliveries/retries, triage API errors, and run health checks. Use when investigating production issues, message failures, or webhook delivery problems.",
+    "risk": "safe",
+    "source": "https://github.com/gokapso/agent-skills/tree/master/skills/observe-whatsapp"
   },
   {
     "id": "obsidian-clipper-template-creator",
@@ -3510,6 +3915,15 @@
     "source": "unknown"
   },
   {
+    "id": "pypict-skill",
+    "path": "skills/pypict-skill",
+    "category": "uncategorized",
+    "name": "pypict-skill",
+    "description": "Pairwise test generation",
+    "risk": "safe",
+    "source": "https://github.com/omkamal/pypict-claude-skill/blob/main/SKILL.md"
+  },
+  {
     "id": "python-development-python-scaffold",
     "path": "skills/python-development-python-scaffold",
     "category": "uncategorized",
@@ -3632,6 +4046,15 @@
     "category": "uncategorized",
     "name": "react-ui-patterns",
     "description": "Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "readme",
+    "path": "skills/readme",
+    "category": "uncategorized",
+    "name": "Readme",
+    "description": "You are an expert technical writer creating comprehensive project documentation. Your goal is to write a README.md that is absurdly thorough\u2014the kind of documentation you wish every project had.",
     "risk": "unknown",
     "source": "unknown"
   },
@@ -3825,6 +4248,15 @@
     "source": "unknown"
   },
   {
+    "id": "screenshots",
+    "path": "skills/screenshots",
+    "category": "uncategorized",
+    "name": "screenshots",
+    "description": "Generate marketing screenshots of your app using Playwright. Use when the user wants to create screenshots for Product Hunt, social media, landing pages, or documentation.",
+    "risk": "safe",
+    "source": "https://github.com/Shpigford/skills/tree/main/screenshots"
+  },
+  {
     "id": "scroll-experience",
     "path": "skills/scroll-experience",
     "category": "uncategorized",
@@ -3868,6 +4300,15 @@
     "description": "Expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks. Masters vulnerability assessment, threat modeling, secure authentication (OAuth2/OIDC), OWASP standards, cloud security, and security automation. Handles DevSecOps integration, compliance (GDPR/HIPAA/SOC2), and incident response. Use PROACTIVELY for security audits, DevSecOps, or compliance implementation.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "security-bluebook-builder",
+    "path": "skills/security-bluebook-builder",
+    "category": "uncategorized",
+    "name": "security-bluebook-builder",
+    "description": "Build security Blue Books for sensitive apps",
+    "risk": "safe",
+    "source": "https://github.com/SHADOWPR0/security-bluebook-builder"
   },
   {
     "id": "security-compliance-compliance-check",
@@ -4086,6 +4527,15 @@
     "source": "unknown"
   },
   {
+    "id": "sharp-edges",
+    "path": "skills/sharp-edges",
+    "category": "uncategorized",
+    "name": "sharp-edges",
+    "description": "Identify error-prone APIs and dangerous configurations",
+    "risk": "safe",
+    "source": "https://github.com/trailofbits/skills/tree/main/plugins/sharp-edges"
+  },
+  {
     "id": "shellcheck-configuration",
     "path": "skills/shellcheck-configuration",
     "category": "uncategorized",
@@ -4156,6 +4606,24 @@
     "description": "Create and manage Claude Code skills following Anthropic best practices. Use when creating new skills, modifying skill-rules.json, understanding trigger patterns, working with hooks, debugging skill activation, or implementing progressive disclosure. Covers skill structure, YAML frontmatter, trigger types (keywords, intent patterns, file paths, content patterns), enforcement levels (block, suggest, warn), hook mechanisms (UserPromptSubmit, PreToolUse), session tracking, and the 500-line rule.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "skill-rails-upgrade",
+    "path": "skills/skill-rails-upgrade",
+    "category": "uncategorized",
+    "name": "skill-rails-upgrade",
+    "description": "Analyze Rails apps and provide upgrade assessments",
+    "risk": "safe",
+    "source": "https://github.com/robzolkos/skill-rails-upgrade"
+  },
+  {
+    "id": "skill-seekers",
+    "path": "skills/skill-seekers",
+    "category": "uncategorized",
+    "name": "skill-seekers",
+    "description": "-Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes.",
+    "risk": "safe",
+    "source": "https://github.com/yusufkaraaslan/Skill_Seekers"
   },
   {
     "id": "slack-bot-builder",
@@ -4365,6 +4833,24 @@
     "source": "unknown"
   },
   {
+    "id": "superpowers-lab",
+    "path": "skills/superpowers-lab",
+    "category": "uncategorized",
+    "name": "superpowers-lab",
+    "description": "Lab environment for Claude superpowers",
+    "risk": "safe",
+    "source": "https://github.com/obra/superpowers-lab"
+  },
+  {
+    "id": "swiftui-expert-skill",
+    "path": "skills/swiftui-expert-skill",
+    "category": "uncategorized",
+    "name": "swiftui-expert-skill",
+    "description": "Write, review, or improve SwiftUI code following best practices for state management, view composition, performance, modern APIs, Swift concurrency, and iOS 26+ Liquid Glass adoption. Use when building new SwiftUI features, refactoring existing views, reviewing code quality, or adopting modern SwiftUI patterns.",
+    "risk": "safe",
+    "source": "https://github.com/AvdLee/SwiftUI-Agent-Skill/tree/main/swiftui-expert-skill"
+  },
+  {
     "id": "systematic-debugging",
     "path": "skills/systematic-debugging",
     "category": "uncategorized",
@@ -4545,6 +5031,15 @@
     "source": "unknown"
   },
   {
+    "id": "terraform-skill",
+    "path": "skills/terraform-skill",
+    "category": "uncategorized",
+    "name": "terraform-skill",
+    "description": "Terraform infrastructure as code best practices",
+    "risk": "safe",
+    "source": "https://github.com/antonbabenko/terraform-skill"
+  },
+  {
     "id": "terraform-specialist",
     "path": "skills/terraform-specialist",
     "category": "uncategorized",
@@ -4615,6 +5110,24 @@
     "description": "Expert in threat modeling methodologies, security architecture review, and risk assessment. Masters STRIDE, PASTA, attack trees, and security requirement extraction. Use for security architecture reviews, threat identification, and secure-by-design planning.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "threejs-skills",
+    "path": "skills/threejs-skills",
+    "category": "uncategorized",
+    "name": "threejs-skills",
+    "description": "Three.js skills for creating 3D elements and interactive experiences",
+    "risk": "safe",
+    "source": "https://github.com/CloudAI-X/threejs-skills"
+  },
+  {
+    "id": "tool-design",
+    "path": "skills/tool-design",
+    "category": "uncategorized",
+    "name": "tool-design",
+    "description": "Build tools that agents can use effectively, including architectural reduction patterns",
+    "risk": "safe",
+    "source": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/tool-design"
   },
   {
     "id": "top-web-vulnerabilities",
@@ -4698,6 +5211,15 @@
     "source": "unknown"
   },
   {
+    "id": "ui-skills",
+    "path": "skills/ui-skills",
+    "category": "uncategorized",
+    "name": "ui-skills",
+    "description": "Opinionated, evolving constraints to guide agents when building interfaces",
+    "risk": "safe",
+    "source": "https://github.com/ibelick/ui-skills"
+  },
+  {
     "id": "ui-ux-designer",
     "path": "skills/ui-ux-designer",
     "category": "uncategorized",
@@ -4761,6 +5283,15 @@
     "source": "self"
   },
   {
+    "id": "upgrading-expo",
+    "path": "skills/upgrading-expo",
+    "category": "uncategorized",
+    "name": "upgrading-expo",
+    "description": "Upgrade Expo SDK versions",
+    "risk": "safe",
+    "source": "https://github.com/expo/skills/tree/main/plugins/upgrading-expo"
+  },
+  {
     "id": "upstash-qstash",
     "path": "skills/upstash-qstash",
     "category": "uncategorized",
@@ -4777,6 +5308,15 @@
     "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "using-neon",
+    "path": "skills/using-neon",
+    "category": "uncategorized",
+    "name": "using-neon",
+    "description": "Guides and best practices for working with Neon Serverless Postgres. Covers getting started, local development with Neon, choosing a connection method, Neon features, authentication (@neondatabase/auth), PostgREST-style data API (@neondatabase/neon-js), Neon CLI, and Neon's Platform API/SDKs. Use for any Neon-related questions.",
+    "risk": "safe",
+    "source": "https://github.com/neondatabase/agent-skills/tree/main/skills/neon-postgres"
   },
   {
     "id": "using-superpowers",
@@ -4797,6 +5337,15 @@
     "source": "unknown"
   },
   {
+    "id": "varlock-claude-skill",
+    "path": "skills/varlock-claude-skill",
+    "category": "uncategorized",
+    "name": "varlock-claude-skill",
+    "description": "Secure environment variable management ensuring secrets are never exposed in Claude sessions, terminals, logs, or git commits",
+    "risk": "safe",
+    "source": "https://github.com/wrsmith108/varlock-claude-skill"
+  },
+  {
     "id": "vector-database-engineer",
     "path": "skills/vector-database-engineer",
     "category": "uncategorized",
@@ -4815,12 +5364,21 @@
     "source": "unknown"
   },
   {
+    "id": "vercel-deploy-claimable",
+    "path": "skills/vercel-deploy-claimable",
+    "category": "uncategorized",
+    "name": "Vercel Deploy Claimable",
+    "description": "Deploy any project to Vercel instantly. No authentication required.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
     "id": "vercel-deployment",
     "path": "skills/vercel-deployment",
     "category": "uncategorized",
     "name": "vercel-deployment",
     "description": "Expert knowledge for deploying to Vercel with Next.js Use when: vercel, deploy, deployment, hosting, production.",
-    "risk": "unknown",
+    "risk": "safe",
     "source": "vibeship-spawner-skills (Apache 2.0)"
   },
   {
@@ -4840,6 +5398,15 @@
     "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "vexor",
+    "path": "skills/vexor",
+    "category": "uncategorized",
+    "name": "vexor",
+    "description": "Vector-powered CLI for semantic file search with a Claude/Codex skill",
+    "risk": "safe",
+    "source": "https://github.com/scarletkc/vexor"
   },
   {
     "id": "viral-generator-builder",
@@ -5026,9 +5593,18 @@
     "path": "skills/writing-skills",
     "category": "uncategorized",
     "name": "writing-skills",
-    "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+    "description": "Use when creating, updating, or improving agent skills.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "x-article-publisher-skill",
+    "path": "skills/x-article-publisher-skill",
+    "category": "uncategorized",
+    "name": "x-article-publisher-skill",
+    "description": "Publish articles to X/Twitter",
+    "risk": "safe",
+    "source": "https://github.com/wshuyi/x-article-publisher-skill"
   },
   {
     "id": "xlsx-official",
