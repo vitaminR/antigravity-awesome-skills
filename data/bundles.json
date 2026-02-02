@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-30T19:35:13.007Z",
+  "generatedAt": "2026-02-01T16:52:15.939Z",
   "bundles": {
     "core-dev": {
       "description": "Core development skills across languages, frameworks, and backend/frontend fundamentals.",
@@ -112,6 +112,7 @@
         "shopify-apps",
         "shopify-development",
         "slack-bot-builder",
+        "stitch-ui-design",
         "swiftui-expert-skill",
         "systems-programming-rust-project",
         "tavily-web",
