@@ -80,6 +80,8 @@ function run(cmd, args, opts = {}) {
 
 function main() {
   const opts = parseArgs();
+  const { tagArg, versionArg } = opts;
+  
   if (opts.help) {
     printHelp();
     return;

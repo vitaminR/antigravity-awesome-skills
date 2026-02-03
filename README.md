@@ -57,6 +57,7 @@ AI Agents (like Claude Code, Cursor, or Gemini) are smart, but they lack **speci
 Install once (clone or npx); then use our **Starter Packs** in [docs/BUNDLES.md](docs/BUNDLES.md) to see which skills fit your role. You get the full repo; Starter Packs are curated lists, not a separate install.
 
 1.  **Install** (pick one):
+
     ```bash
     # Easiest: npx installer (clones to ~/.agent/skills by default)
     npx antigravity-awesome-skills
@@ -64,6 +65,7 @@ Install once (clone or npx); then use our **Starter Packs** in [docs/BUNDLES.md]
     # Or clone manually
     git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
     ```
+
 2.  **Pick your persona** (See [docs/BUNDLES.md](docs/BUNDLES.md)):
     - **Web Dev?** use the `Web Wizard` pack.
     - **Hacker?** use the `Security Engineer` pack.
@@ -84,14 +86,15 @@ Once installed, just ask your agent naturally:
 
 These skills follow the universal **SKILL.md** format and work with any AI coding assistant that supports agentic skills.
 
-| Tool            | Type | Invocation Example                | Path              |
-| :-------------- | :--- | :-------------------------------- | :---------------- |
-| **Claude Code** | CLI  | `>> /skill-name help me...`       | `.claude/skills/` |
-| **Gemini CLI**  | CLI  | `(User Prompt) Use skill-name...` | `.gemini/skills/` |
-| **Codex CLI**   | CLI  | `(User Prompt) Use skill-name...` | `.codex/skills/`  |
-| **Antigravity** | IDE  | `(Agent Mode) Use skill...`       | `.agent/skills/`  |
-| **Cursor**      | IDE  | `@skill-name (in Chat)`           | `.cursor/skills/` |
-| **Copilot**     | Ext  | `(Paste content manually)`        | N/A               |
+| Tool            | Type  | Invocation Example                | Path              |
+| :-------------- | :---- | :-------------------------------- | :---------------- |
+| **Claude Code** | CLI   | `>> /skill-name help me...`       | `.claude/skills/` |
+| **Gemini CLI**  | CLI   | `(User Prompt) Use skill-name...` | `.gemini/skills/` |
+| **Codex CLI**   | CLI   | `(User Prompt) Use skill-name...` | `.codex/skills/`  |
+| **Antigravity** | IDE   | `(Agent Mode) Use skill...`       | `.agent/skills/`  |
+| **Cursor**      | IDE   | `@skill-name (in Chat)`           | `.cursor/skills/` |
+| **Copilot**     | Ext   | `(Paste content manually)`        | N/A               |
+| **OpenCode**    | CLI   | `opencode run @skill-name`        | `.agent/skills/`  |
 | **AdaL**        | Agent | `(Agent Mode) Use skill...`       | `.agent/skills/`  |
 
 > [!TIP]
@@ -112,17 +115,17 @@ This repository aggregates the best capabilities from across the open-source com
 
 The repository is organized into specialized domains to transform your AI into an expert across the entire software development lifecycle:
 
-| Category | Focus | Example skills |
-| :--- | :--- | :--- |
-| Architecture (52) | System design, ADRs, C4, and scalable patterns | `architecture`, `c4-context`, `senior-architect` |
-| Business (35) | Growth, pricing, CRO, SEO, and go-to-market | `copywriting`, `pricing-strategy`, `seo-audit` |
-| Data & AI (81) | LLM apps, RAG, agents, observability, analytics | `rag-engineer`, `prompt-engineer`, `langgraph` |
-| Development (72) | Language mastery, framework patterns, code quality | `typescript-expert`, `python-patterns`, `react-patterns` |
-| General (95) | Planning, docs, product ops, writing, guidelines | `brainstorming`, `doc-coauthoring`, `writing-plans` |
-| Infrastructure (72) | DevOps, cloud, serverless, deployment, CI/CD | `docker-expert`, `aws-serverless`, `vercel-deployment` |
-| Security (107) | AppSec, pentesting, vuln analysis, compliance | `api-security-best-practices`, `sql-injection-testing`, `vulnerability-scanner` |
-| Testing (21) | TDD, test design, fixes, QA workflows | `test-driven-development`, `testing-patterns`, `test-fixing` |
-| Workflow (17) | Automation, orchestration, jobs, agents | `workflow-automation`, `inngest`, `trigger-dev` |
+| Category            | Focus                                              | Example skills                                                                  |
+| :------------------ | :------------------------------------------------- | :------------------------------------------------------------------------------ |
+| Architecture (52)   | System design, ADRs, C4, and scalable patterns     | `architecture`, `c4-context`, `senior-architect`                                |
+| Business (35)       | Growth, pricing, CRO, SEO, and go-to-market        | `copywriting`, `pricing-strategy`, `seo-audit`                                  |
+| Data & AI (81)      | LLM apps, RAG, agents, observability, analytics    | `rag-engineer`, `prompt-engineer`, `langgraph`                                  |
+| Development (72)    | Language mastery, framework patterns, code quality | `typescript-expert`, `python-patterns`, `react-patterns`                        |
+| General (95)        | Planning, docs, product ops, writing, guidelines   | `brainstorming`, `doc-coauthoring`, `writing-plans`                             |
+| Infrastructure (72) | DevOps, cloud, serverless, deployment, CI/CD       | `docker-expert`, `aws-serverless`, `vercel-deployment`                          |
+| Security (107)      | AppSec, pentesting, vuln analysis, compliance      | `api-security-best-practices`, `sql-injection-testing`, `vulnerability-scanner` |
+| Testing (21)        | TDD, test design, fixes, QA workflows              | `test-driven-development`, `testing-patterns`, `test-fixing`                    |
+| Workflow (17)       | Automation, orchestration, jobs, agents            | `workflow-automation`, `inngest`, `trigger-dev`                                 |
 
 ## Curated Collections
 
@@ -156,6 +159,9 @@ npx antigravity-awesome-skills --gemini
 # Codex CLI
 npx antigravity-awesome-skills --codex
 
+# OpenCode (Universal)
+npx antigravity-awesome-skills
+
 # Custom path
 npx antigravity-awesome-skills --path ./my-skills
 ```
@@ -181,6 +187,9 @@ git clone https://github.com/sickn33/antigravity-awesome-skills.git .codex/skill
 
 # Cursor specific
 git clone https://github.com/sickn33/antigravity-awesome-skills.git .cursor/skills
+
+# OpenCode specific (Universal path)
+git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
 ```
 
 ---
