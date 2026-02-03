@@ -1,0 +1,2 @@
+# Python dependencies for scripts (validate_skills.py, generate_index.py, update_readme.py)
+pyyaml>=5.4,<7

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-01T16:52:15.939Z",
+  "generatedAt": "2026-02-02T21:03:06.925Z",
   "bundles": {
     "core-dev": {
       "description": "Core development skills across languages, frameworks, and backend/frontend fundamentals.",
@@ -55,6 +55,7 @@
         "frontend-mobile-security-xss-scan",
         "frontend-security-coder",
         "frontend-slides",
+        "game-development/mobile-games",
         "go-concurrency-patterns",
         "golang-pro",
         "graphql",
@@ -319,7 +320,6 @@
         "unity-ecs-patterns",
         "using-neon",
         "vector-database-engineer",
-        "xlsx",
         "xlsx-official"
       ]
     },
@@ -357,6 +357,7 @@
         "error-diagnostics-error-trace",
         "expo-deployment",
         "flutter-expert",
+        "game-development/game-art",
         "git-pr-workflows-git-workflow",
         "gitlab-ci-patterns",
         "gitops-workflow",

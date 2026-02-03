@@ -1,10 +1,10 @@
 # Skill Catalog
 
-Generated at: 2026-02-01T16:52:15.939Z
+Generated at: 2026-02-02T21:03:06.925Z
 
-Total skills: 619
+Total skills: 626
 
-## architecture (59)
+## architecture (60)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -36,6 +36,7 @@ Total skills: 619
 | `error-handling-patterns` | Master error handling patterns across languages including exceptions, Result types, error propagation, and graceful degradation to build resilient applicatio... | error, handling | error, handling, languages, including, exceptions, result, types, propagation, graceful, degradation, resilient, applications |
 | `event-sourcing-architect` | Expert in event sourcing, CQRS, and event-driven architecture patterns. Masters event store design, projection building, saga orchestration, and eventual con... | event, sourcing | event, sourcing, architect, cqrs, driven, architecture, masters, store, projection, building, saga, orchestration |
 | `event-store-design` | Design and implement event stores for event-sourced systems. Use when building event sourcing infrastructure, choosing event store technologies, or implement... | event, store | event, store, stores, sourced, building, sourcing, infrastructure, choosing, technologies, implementing, persistence |
+| `game-development/multiplayer` | Multiplayer game development principles. Architecture, networking, synchronization. | game, development/multiplayer | game, development/multiplayer, multiplayer, development, principles, architecture, networking, synchronization |
 | `godot-gdscript-patterns` | Master Godot 4 GDScript patterns including signals, scenes, state machines, and optimization. Use when building Godot games, implementing game systems, or le... | godot, gdscript | godot, gdscript, including, signals, scenes, state, machines, optimization, building, games, implementing, game |
 | `haskell-pro` | Expert Haskell engineer specializing in advanced type systems, pure functional design, and high-reliability software. Use PROACTIVELY for type-level programm... | haskell | haskell, pro, engineer, specializing, type, pure, functional, high, reliability, software, proactively, level |
 | `i18n-localization` | Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support. | i18n, localization | i18n, localization, internationalization, detecting, hardcoded, strings, managing, translations, locale, files, rtl |
@@ -110,7 +111,7 @@ Total skills: 619
 | `startup-financial-modeling` | This skill should be used when the user asks to "create financial projections", "build a financial model", "forecast revenue", "calculate burn rate", "estima... | startup, financial, modeling | startup, financial, modeling, skill, should, used, user, asks, projections, model, forecast, revenue |
 | `team-composition-analysis` | This skill should be used when the user asks to "plan team structure", "determine hiring needs", "design org chart", "calculate compensation", "plan equity a... | team, composition | team, composition, analysis, skill, should, used, user, asks, plan, structure, determine, hiring |
 
-## data-ai (93)
+## data-ai (92)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -205,10 +206,9 @@ Total skills: 619
 | `voice-ai-development` | Expert in building voice AI applications - from real-time voice agents to voice-enabled apps. Covers OpenAI Realtime API, Vapi for voice agents, Deepgram for... | voice, ai | voice, ai, development, building, applications, real, time, agents, enabled, apps, covers, openai |
 | `voice-ai-engine-development` | Build real-time conversational AI voice engines using async worker pipelines, streaming transcription, LLM agents, and TTS synthesis with interrupt handling ... | voice, ai, engine | voice, ai, engine, development, real, time, conversational, engines, async, worker, pipelines, streaming |
 | `web-artifacts-builder` | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use ... | web, artifacts, builder | web, artifacts, builder, suite, creating, elaborate, multi, component, claude, ai, html, frontend |
-| `xlsx` | Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work ... | xlsx | xlsx, spreadsheet, creation, editing, analysis, formulas, formatting, data, visualization, claude, work, spreadsheets |
 | `xlsx-official` | Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work ... | xlsx, official | xlsx, official, spreadsheet, creation, editing, analysis, formulas, formatting, data, visualization, claude, work |
 
-## development (80)
+## development (81)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -241,6 +241,7 @@ Total skills: 619
 | `frontend-developer` | Build React components, implement responsive layouts, and handle client-side state management. Masters React 19, Next.js 15, and modern frontend architecture... | frontend | frontend, developer, react, components, responsive, layouts, handle, client, side, state, masters, 19 |
 | `frontend-mobile-development-component-scaffold` | You are a React component architecture expert specializing in scaffolding production-ready, accessible, and performant components. Generate complete componen... | frontend, mobile, component | frontend, mobile, component, development, scaffold, react, architecture, specializing, scaffolding, accessible, performant, components |
 | `frontend-slides` | Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a... | frontend, slides | frontend, slides, stunning, animation, rich, html, presentations, scratch, converting, powerpoint, files, user |
+| `game-development/mobile-games` | Mobile game development principles. Touch input, battery, performance, app stores. | game, development/mobile, games | game, development/mobile, games, mobile, development, principles, touch, input, battery, performance, app, stores |
 | `go-concurrency-patterns` | Master Go concurrency with goroutines, channels, sync primitives, and context. Use when building concurrent Go applications, implementing worker pools, or de... | go, concurrency | go, concurrency, goroutines, channels, sync, primitives, context, building, concurrent, applications, implementing, worker |
 | `golang-pro` | Master Go 1.21+ with modern patterns, advanced concurrency, performance optimization, and production-ready microservices. Expert in the latest Go ecosystem i... | golang | golang, pro, go, 21, concurrency, performance, optimization, microservices, latest, ecosystem, including, generics |
 | `hubspot-integration` | Expert patterns for HubSpot CRM integration including OAuth authentication, CRM objects, associations, batch operations, webhooks, and custom objects. Covers... | hubspot, integration | hubspot, integration, crm, including, oauth, authentication, objects, associations, batch, operations, webhooks, custom |
@@ -294,7 +295,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `viral-generator-builder` | Expert in building shareable generator tools that go viral - name generators, quiz makers, avatar creators, personality tests, and calculator tools. Covers t... | viral, generator, builder | viral, generator, builder, building, shareable, go, name, generators, quiz, makers, avatar, creators |
 | `webapp-testing` | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing... | webapp | webapp, testing, toolkit, interacting, local, web, applications, playwright, supports, verifying, frontend, functionality |
 
-## general (122)
+## general (128)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -304,6 +305,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `angular-migration` | Migrate from AngularJS to Angular using hybrid mode, incremental component rewriting, and dependency injection updates. Use when upgrading AngularJS applicat... | angular, migration | angular, migration, migrate, angularjs, hybrid, mode, incremental, component, rewriting, dependency, injection, updates |
 | `anti-reversing-techniques` | Understand anti-reversing, obfuscation, and protection techniques encountered during software analysis. Use when analyzing protected binaries, bypassing anti... | anti, reversing, techniques | anti, reversing, techniques, understand, obfuscation, protection, encountered, during, software, analysis, analyzing, protected |
 | `app-builder` | Main application building orchestrator. Creates full-stack applications from natural language requests. Determines project type, selects tech stack, coordina... | app, builder | app, builder, main, application, building, orchestrator, creates, full, stack, applications, natural, language |
+| `app-builder/templates` | Project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks. | app, builder/templates | app, builder/templates, scaffolding, new, applications, creating, scratch, contains, 12, various, tech, stacks |
 | `arm-cortex-expert` | Senior embedded software engineer specializing in firmware and driver development for ARM Cortex-M microcontrollers (Teensy, STM32, nRF52, SAMD). Decades of ... | arm, cortex | arm, cortex, senior, embedded, software, engineer, specializing, firmware, driver, development, microcontrollers, teensy |
 | `avalonia-layout-zafiro` | Guidelines for modern Avalonia UI layout using Zafiro.Avalonia, emphasizing shared styles, generic components, and avoiding XAML redundancy. | avalonia, layout, zafiro | avalonia, layout, zafiro, guidelines, ui, emphasizing, shared, styles, generic, components, avoiding, xaml |
 | `avalonia-zafiro-development` | Mandatory skills, conventions, and behavioral rules for Avalonia UI development using the Zafiro toolkit. | avalonia, zafiro | avalonia, zafiro, development, mandatory, skills, conventions, behavioral, rules, ui, toolkit |
@@ -345,7 +347,6 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `debugging-toolkit-smart-debug` | Use when working with debugging toolkit smart debug | debugging, debug | debugging, debug, toolkit, smart, working |
 | `design-md` | Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files | md | md, analyze, stitch, synthesize, semantic, files |
 | `dispatching-parallel-agents` | Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies | dispatching, parallel, agents | dispatching, parallel, agents, facing, independent, tasks, worked, without, shared, state, sequential, dependencies |
-| `docx` | Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude ... | docx | docx, document, creation, editing, analysis, tracked, changes, comments, formatting, preservation, text, extraction |
 | `docx-official` | Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude ... | docx, official | docx, official, document, creation, editing, analysis, tracked, changes, comments, formatting, preservation, text |
 | `dx-optimizer` | Developer Experience specialist. Improves tooling, setup, and workflows. Use PROACTIVELY when setting up new projects, after team feedback, or when developme... | dx, optimizer | dx, optimizer, developer, experience, improves, tooling, setup, proactively, setting, up, new, after |
 | `environment-setup-guide` | Guide developers through setting up development environments with proper tools, dependencies, and configurations | environment, setup | environment, setup, developers, through, setting, up, development, environments, proper, dependencies, configurations |
@@ -360,6 +361,13 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `fix-review` | Verify fix commits address audit findings without new bugs | fix | fix, review, verify, commits, address, audit, findings, without, new, bugs |
 | `framework-migration-code-migrate` | You are a code migration expert specializing in transitioning codebases between frameworks, languages, versions, and platforms. Generate comprehensive migrat... | framework, migration, code, migrate | framework, migration, code, migrate, specializing, transitioning, codebases, between, frameworks, languages, versions, platforms |
 | `game-development` | Game development orchestrator. Routes to platform-specific skills based on project needs. | game | game, development, orchestrator, routes, platform, specific, skills |
+| `game-development/2d-games` | 2D game development principles. Sprites, tilemaps, physics, camera. | game, development/2d, games | game, development/2d, games, 2d, development, principles, sprites, tilemaps, physics, camera |
+| `game-development/3d-games` | 3D game development principles. Rendering, shaders, physics, cameras. | game, development/3d, games | game, development/3d, games, 3d, development, principles, rendering, shaders, physics, cameras |
+| `game-development/game-audio` | Game audio principles. Sound design, music integration, adaptive audio systems. | game, development/game, audio | game, development/game, audio, principles, sound, music, integration, adaptive |
+| `game-development/game-design` | Game design principles. GDD structure, balancing, player psychology, progression. | game, development/game | game, development/game, principles, gdd, structure, balancing, player, psychology, progression |
+| `game-development/pc-games` | PC and console game development principles. Engine selection, platform features, optimization strategies. | game, development/pc, games | game, development/pc, games, pc, console, development, principles, engine, selection, platform, features, optimization |
+| `game-development/vr-ar` | VR/AR development principles. Comfort, interaction, performance requirements. | game, development/vr, ar | game, development/vr, ar, vr, development, principles, comfort, interaction, performance, requirements |
+| `game-development/web-games` | Web browser game development principles. Framework selection, WebGPU, optimization, PWA. | game, development/web, games | game, development/web, games, web, browser, development, principles, framework, selection, webgpu, optimization, pwa |
 | `git-advanced-workflows` | Master advanced Git workflows including rebasing, cherry-picking, bisect, worktrees, and reflog to maintain clean history and recover from any situation. Use... | git, advanced | git, advanced, including, rebasing, cherry, picking, bisect, worktrees, reflog, maintain, clean, history |
 | `git-pr-workflows-onboard` | You are an **expert onboarding specialist and knowledge transfer architect** with deep experience in remote-first organizations, technical team integration, ... | git, pr, onboard | git, pr, onboard, onboarding, knowledge, transfer, architect, deep, experience, remote, first, organizations |
 | `git-pr-workflows-pr-enhance` | You are a PR optimization expert specializing in creating high-quality pull requests that facilitate efficient code reviews. Generate comprehensive PR descri... | git, pr, enhance | git, pr, enhance, optimization, specializing, creating, high, quality, pull, requests, facilitate, efficient |
@@ -386,7 +394,6 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `plan-writing` | Structured task planning with clear breakdowns, dependencies, and verification criteria. Use when implementing features, refactoring, or any multi-step work. | plan, writing | plan, writing, structured, task, planning, clear, breakdowns, dependencies, verification, criteria, implementing, features |
 | `planning-with-files` | Implements Manus-style file-based planning for complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when starting complex multi-step tasks,... | planning, with, files | planning, with, files, implements, manus, style, file, complex, tasks, creates, task, plan |
 | `posix-shell-pro` | Expert in strict POSIX sh scripting for maximum portability across Unix-like systems. Specializes in shell scripts that run on any POSIX-compliant shell (das... | posix, shell | posix, shell, pro, strict, sh, scripting, maximum, portability, unix, like, specializes, scripts |
-| `pptx` | Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying o... | pptx | pptx, presentation, creation, editing, analysis, claude, work, presentations, files, creating, new, modifying |
 | `pptx-official` | Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying o... | pptx, official | pptx, official, presentation, creation, editing, analysis, claude, work, presentations, files, creating, new |
 | `privilege-escalation-methods` | This skill should be used when the user asks to "escalate privileges", "get root access", "become administrator", "privesc techniques", "abuse sudo", "exploi... | privilege, escalation, methods | privilege, escalation, methods, skill, should, used, user, asks, escalate, privileges, get, root |
 | `prompt-library` | Curated collection of high-quality prompts for various use cases. Includes role-based prompts, task-specific templates, and prompt refinement techniques. Use... | prompt, library | prompt, library, curated, collection, high, quality, prompts, various, cases, includes, role, task |
@@ -421,7 +428,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `writing-skills` | Use when creating, updating, or improving agent skills. | writing, skills | writing, skills, creating, updating, improving, agent |
 | `x-article-publisher-skill` | Publish articles to X/Twitter | x, article, publisher, skill | x, article, publisher, skill, publish, articles, twitter |
 
-## infrastructure (77)
+## infrastructure (78)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -458,6 +465,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `expo-deployment` | Deploy Expo apps to production | expo, deployment | expo, deployment, deploy, apps |
 | `file-uploads` | Expert at handling file uploads and cloud storage. Covers S3, Cloudflare R2, presigned URLs, multipart uploads, and image optimization. Knows how to handle l... | file, uploads | file, uploads, handling, cloud, storage, covers, s3, cloudflare, r2, presigned, urls, multipart |
 | `flutter-expert` | Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment. Handles state management, animations, testing, and performance optim... | flutter | flutter, development, dart, widgets, multi, platform, deployment, state, animations, testing, performance, optimization |
+| `game-development/game-art` | Game art principles. Visual style selection, asset pipeline, animation workflow. | game, development/game, art | game, development/game, art, principles, visual, style, selection, asset, pipeline, animation |
 | `gcp-cloud-run` | Specialized skill for building production-ready serverless applications on GCP. Covers Cloud Run services (containerized), Cloud Run Functions (event-driven)... | gcp, cloud, run | gcp, cloud, run, specialized, skill, building, serverless, applications, covers, containerized, functions, event |
 | `git-pr-workflows-git-workflow` | Orchestrate a comprehensive git workflow from code review through PR creation, leveraging specialized agents for quality assurance, testing, and deployment r... | git, pr | git, pr, orchestrate, code, review, through, creation, leveraging, specialized, agents, quality, assurance |
 | `github-actions-templates` | Create production-ready GitHub Actions workflows for automated testing, building, and deploying applications. Use when setting up CI/CD with GitHub Actions, ... | github, actions | github, actions, automated, testing, building, deploying, applications, setting, up, ci, cd, automating |
@@ -647,7 +655,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `unit-testing-test-generate` | Generate comprehensive, maintainable unit tests across languages with strong coverage and edge case focus. | unit, generate | unit, generate, testing, test, maintainable, tests, languages, strong, coverage, edge, case |
 | `web3-testing` | Test smart contracts comprehensively using Hardhat and Foundry with unit tests, integration tests, and mainnet forking. Use when testing Solidity contracts, ... | web3 | web3, testing, test, smart, contracts, comprehensively, hardhat, foundry, unit, tests, integration, mainnet |
 
-## workflow (17)
+## workflow (16)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -664,7 +672,6 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `git-pushing` | Stage, commit, and push git changes with conventional commit messages. Use when user wants to commit and push changes, mentions pushing to remote, or asks to... | git, pushing | git, pushing, stage, commit, push, changes, conventional, messages, user, wants, mentions, remote |
 | `kaizen` | Guide for continuous improvement, error proofing, and standardization. Use this skill when the user wants to improve code quality, refactor, or discuss proce... | kaizen | kaizen, continuous, improvement, error, proofing, standardization, skill, user, wants, improve, code, quality |
 | `mermaid-expert` | Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures. Masters syntax for all diagram types and styling. Use PROACTIVELY for visual docu... | mermaid | mermaid, diagrams, flowcharts, sequences, erds, architectures, masters, syntax, all, diagram, types, styling |
-| `pdf` | Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs ... | pdf | pdf, manipulation, toolkit, extracting, text, tables, creating, new, pdfs, merging, splitting, documents |
 | `pdf-official` | Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs ... | pdf, official | pdf, official, manipulation, toolkit, extracting, text, tables, creating, new, pdfs, merging, splitting |
 | `team-collaboration-issue` | You are a GitHub issue resolution expert specializing in systematic bug investigation, feature implementation, and collaborative development workflows. Your ... | team, collaboration, issue | team, collaboration, issue, github, resolution, specializing, systematic, bug, investigation, feature, collaborative, development |
 | `track-management` | Use this skill when creating, managing, or working with Conductor tracks - the logical work units for features, bugs, and refactors. Applies to spec.md, plan... | track | track, skill, creating, managing, working, conductor, tracks, logical, work, units, features, bugs |
