@@ -22,6 +22,18 @@ Reference these guidelines when:
 - Measuring and optimizing LinkedIn impact
 - Managing LinkedIn influencer positioning
 
+## Compatibility note (LinkedIn-Branding repo)
+
+If you are operating inside the `LinkedIn-Branding/` repository, this skill is **non-authoritative** for process and file paths.
+
+To avoid drift/conflicts:
+- Defer to `LinkedIn-Branding/00_Context/LLM_Copilot.md` and `LinkedIn-Branding/PRD0_Crucible_Master.md`.
+- Use the campaign-era canonical paths:
+    - Draft: `LinkedIn-Branding/2026/**/02.Drafts/**/<ID>_<Topic>/post.md`
+    - Ready: `LinkedIn-Branding/2026/**/03.Ready/**/<ID>_<Topic>/post.md`
+    - Shipped: `LinkedIn-Branding/2026/**/04.Shipped/**/<ID>_<Topic>/post.md`
+- Treat `LinkedIn-Branding/03_Final_Queue/CRUCIBLE_STATUS.md` as **tracker-only**, not canonical post storage.
+
 ## Crucible Categories by Priority
 
 | Priority | Crucible | Focus | Prefix |
