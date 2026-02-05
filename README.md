@@ -1,6 +1,6 @@
-# 🌌 Antigravity Awesome Skills: 626+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
+# 🌌 Antigravity Awesome Skills: 634+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
-> **The Ultimate Collection of 626+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, AdaL**
+> **The Ultimate Collection of 634+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, AdaL**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
@@ -13,7 +13,7 @@
 [![AdaL CLI](https://img.shields.io/badge/AdaL%20CLI-SylphAI-pink)](https://sylph.ai/)
 [![ASK Supported](https://img.shields.io/badge/ASK-Supported-blue)](https://github.com/yeasy/ask)
 
-**Antigravity Awesome Skills** is a curated, battle-tested library of **626 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
+**Antigravity Awesome Skills** is a curated, battle-tested library of **634 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
 
 - 🟣 **Claude Code** (Anthropic CLI)
 - 🔵 **Gemini CLI** (Google DeepMind)
@@ -32,7 +32,7 @@ This repository provides essential skills to transform your AI assistant into a 
 - [🔌 Compatibility & Invocation](#compatibility--invocation)
 - [📦 Features & Categories](#features--categories)
 - [🎁 Curated Collections (Bundles)](#curated-collections)
-- [📚 Browse 626+ Skills](#browse-626-skills)
+- [📚 Browse 634+ Skills](#browse-634-skills)
 - [🛠️ Installation](#installation)
 - [🤝 How to Contribute](#how-to-contribute)
 - [👥 Contributors & Credits](#credits--sources)
@@ -132,7 +132,7 @@ The repository is organized into specialized domains to transform your AI into a
 
 [Check out our Starter Packs in docs/BUNDLES.md](docs/BUNDLES.md) to find the perfect toolkit for your role.
 
-## Browse 626+ Skills
+## Browse 634+ Skills
 
 We have moved the full skill registry to a dedicated catalog to keep this README clean.
 
@@ -297,39 +297,44 @@ Made with [contrib.rocks](https://contrib.rocks).
 
 We officially thank the following contributors for their help in making this repository awesome!
 
-- [sck_0](https://github.com/sck000)
-- [Munir Abbasi](https://github.com/munir-abbasi)
-- [sickn33](https://github.com/sickn33)
-- [Mohammad Faiz](https://github.com/Mohammad-Faiz-Cloud-Engineer)
-- [Đỗ Khắc Gia Khoa](https://github.com/Dokhacgiakhoa)
-- [Ianj332](https://github.com/IanJ332)
-- [GuppyTheCat](https://github.com/GuppyTheCat)
-- [Tiger-Foxx](https://github.com/Tiger-Foxx)
-- [arathiesh](https://github.com/arathiesh)
-- [1bcMax](https://github.com/1bcMax)
-- [ALEKGG1](https://github.com/ALEKGG1)
-- [Ahmed Rehan](https://github.com/ar27111994)
-- [BenedictKing](https://github.com/BenedictKing)
-- [whatiskadudoing](https://github.com/whatiskadudoing)
-- [Nguyen Huu Loc](https://github.com/LocNguyenSGU)
-- [Owen Wu](https://github.com/yubing744)
-- [SuperJMN](https://github.com/SuperJMN)
-- [Truong Nguyen](https://github.com/truongnmt)
-- [Viktor Ferenczi](https://github.com/viktor-ferenczi)
-- [c1c3ru](https://github.com/c1c3ru)
-- [ckdwns9121](https://github.com/ckdwns9121)
-- [junited31](https://github.com/junited31)
-- [liyin2015](https://github.com/liyin2015)
-- [krisnasantosa15](https://github.com/KrisnaSantosa15)
-- [sstklen](https://github.com/sstklen)
-- [taksrules](https://github.com/taksrules)
-- [zebbern](https://github.com/zebbern)
-- [vuth-dogo](https://github.com/vuth-dogo)
-- [mvanhorn](https://github.com/mvanhorn)
-- [rookie-ricardo](https://github.com/rookie-ricardo)
-- [evandro-miguel](https://github.com/evandro-miguel)
-- [raeef1001](https://github.com/raeef1001)
-- [devchangjun](https://github.com/devchangjun)
+- [@sck000](https://github.com/sck000)
+- [@munir-abbasi](https://github.com/munir-abbasi)
+- [@sickn33](https://github.com/sickn33)
+- [@Mohammad-Faiz-Cloud-Engineer](https://github.com/Mohammad-Faiz-Cloud-Engineer)
+- [@Dokhacgiakhoa](https://github.com/Dokhacgiakhoa)
+- [@IanJ332](https://github.com/IanJ332)
+- [@chauey](https://github.com/chauey)
+- [@PabloSMD](https://github.com/PabloSMD)
+- [@GuppyTheCat](https://github.com/GuppyTheCat)
+- [@Tiger-Foxx](https://github.com/Tiger-Foxx)
+- [@arathiesh](https://github.com/arathiesh)
+- [@liyin2015](https://github.com/liyin2015)
+- [@1bcMax](https://github.com/1bcMax)
+- [@ALEKGG1](https://github.com/ALEKGG1)
+- [@ar27111994](https://github.com/ar27111994)
+- [@BenedictKing](https://github.com/BenedictKing)
+- [@whatiskadudoing](https://github.com/whatiskadudoing)
+- [@LocNguyenSGU](https://github.com/LocNguyenSGU)
+- [@yubing744](https://github.com/yubing744)
+- [@SuperJMN](https://github.com/SuperJMN)
+- [@truongnmt](https://github.com/truongnmt)
+- [@viktor-ferenczi](https://github.com/viktor-ferenczi)
+- [@c1c3ru](https://github.com/c1c3ru)
+- [@ckdwns9121](https://github.com/ckdwns9121)
+- [@fbientrigo](https://github.com/fbientrigo)
+- [@junited31](https://github.com/junited31)
+- [@KrisnaSantosa15](https://github.com/KrisnaSantosa15)
+- [@sstklen](https://github.com/sstklen)
+- [@taksrules](https://github.com/taksrules)
+- [@zebbern](https://github.com/zebbern)
+- [@vuth-dogo](https://github.com/vuth-dogo)
+- [@mvanhorn](https://github.com/mvanhorn)
+- [@rookie-ricardo](https://github.com/rookie-ricardo)
+- [@evandro-miguel](https://github.com/evandro-miguel)
+- [@raeef1001](https://github.com/raeef1001)
+- [@devchangjun](https://github.com/devchangjun)
+- [@jackjin1997](https://github.com/jackjin1997)
+- [@ericgandrade](https://github.com/ericgandrade)
 
 ## Star History
 

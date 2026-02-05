@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-03T18:45:56.317Z",
+  "generatedAt": "2026-02-05T08:27:17.364Z",
   "bundles": {
     "core-dev": {
       "description": "Core development skills across languages, frameworks, and backend/frontend fundamentals.",
@@ -259,6 +259,7 @@
       "skills": [
         "airflow-dag-patterns",
         "analytics-tracking",
+        "angular-ui-patterns",
         "blockrun",
         "business-analyst",
         "cc-skill-backend-patterns",
@@ -385,6 +386,7 @@
         "performance-testing-review-ai-review",
         "postmortem-writing",
         "prometheus-configuration",
+        "readme",
         "risk-metrics-calculation",
         "security-auditor",
         "server-management",

@@ -68,6 +68,9 @@ jobs:
           # If no changes, exit successfully
           git diff --quiet && exit 0
 
+          # Pull with rebase to integrate remote changes
+          git pull origin main --rebase || true
+
           git add README.md skills_index.json data/catalog.json data/bundles.json data/aliases.json CATALOG.md || true
 
           # If nothing to commit, exit successfully

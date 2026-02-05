@@ -198,6 +198,24 @@
     "source": "unknown"
   },
   {
+    "id": "angular",
+    "path": "skills/angular",
+    "category": "uncategorized",
+    "name": "angular",
+    "description": "Modern Angular (v20+) expert with deep knowledge of Signals, Standalone Components, Zoneless applications, SSR/Hydration, and reactive patterns. Use PROACTIVELY for Angular development, component architecture, state management, performance optimization, and migration to modern patterns.",
+    "risk": "safe",
+    "source": "self"
+  },
+  {
+    "id": "angular-best-practices",
+    "path": "skills/angular-best-practices",
+    "category": "uncategorized",
+    "name": "angular-best-practices",
+    "description": "Angular performance optimization and best practices guide. Use when writing, reviewing, or refactoring Angular code for optimal performance, bundle size, and rendering efficiency.",
+    "risk": "safe",
+    "source": "self"
+  },
+  {
     "id": "angular-migration",
     "path": "skills/angular-migration",
     "category": "uncategorized",
@@ -205,6 +223,24 @@
     "description": "Migrate from AngularJS to Angular using hybrid mode, incremental component rewriting, and dependency injection updates. Use when upgrading AngularJS applications, planning framework migrations, or modernizing legacy Angular code.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "angular-state-management",
+    "path": "skills/angular-state-management",
+    "category": "uncategorized",
+    "name": "angular-state-management",
+    "description": "Master modern Angular state management with Signals, NgRx, and RxJS. Use when setting up global state, managing component stores, choosing between state solutions, or migrating from legacy patterns.",
+    "risk": "safe",
+    "source": "self"
+  },
+  {
+    "id": "angular-ui-patterns",
+    "path": "skills/angular-ui-patterns",
+    "category": "uncategorized",
+    "name": "angular-ui-patterns",
+    "description": "Modern Angular UI patterns for loading states, error handling, and data display. Use when building UI components, handling async data, or managing component states.",
+    "risk": "safe",
+    "source": "self"
   },
   {
     "id": "anti-reversing-techniques",
@@ -366,6 +402,15 @@
     "name": "attack-tree-construction",
     "description": "Build comprehensive attack trees to visualize threat paths. Use when mapping attack scenarios, identifying defense gaps, or communicating security risks to stakeholders.",
     "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "audio-transcriber",
+    "path": "skills/audio-transcriber",
+    "category": "uncategorized",
+    "name": "audio-transcriber",
+    "description": "Transform audio recordings into professional Markdown documentation with intelligent summaries using LLM integration",
+    "risk": "safe",
     "source": "unknown"
   },
   {
@@ -1105,6 +1150,15 @@
     "description": "Build AI agents that interact with computers like humans do - viewing screens, moving cursors, clicking buttons, and typing text. Covers Anthropic's Computer Use, OpenAI's Operator/CUA, and open-source alternatives. Critical focus on sandboxing, security, and handling the unique challenges of vision-based control. Use when: computer use, desktop automation agent, screen control AI, vision-based agent, GUI automation.",
     "risk": "unknown",
     "source": "vibeship-spawner-skills (Apache 2.0)"
+  },
+  {
+    "id": "computer-vision-expert",
+    "path": "skills/computer-vision-expert",
+    "category": "uncategorized",
+    "name": "computer-vision-expert",
+    "description": "SOTA Computer Vision Expert (2026). Specialized in YOLO26, Segment Anything 3 (SAM 3), Vision Language Models, and real-time spatial analysis.",
+    "risk": "unknown",
+    "source": "unknown"
   },
   {
     "id": "concise-planning",
@@ -3546,6 +3600,15 @@
     "source": "unknown"
   },
   {
+    "id": "oss-hunter",
+    "path": "skills/oss-hunter",
+    "category": "uncategorized",
+    "name": "oss-hunter",
+    "description": "Automatically hunt for high-impact OSS contribution opportunities in trending repositories.",
+    "risk": "safe",
+    "source": "https://github.com/jackjin1997/ClawForge"
+  },
+  {
     "id": "page-cro",
     "path": "skills/page-cro",
     "category": "uncategorized",
@@ -3874,8 +3937,8 @@
     "path": "skills/prompt-engineer",
     "category": "uncategorized",
     "name": "prompt-engineer",
-    "description": "Expert prompt engineer specializing in advanced prompting techniques, LLM optimization, and AI system design. Masters chain-of-thought, constitutional AI, and production prompt strategies. Use when building AI features, improving agent performance, or crafting system prompts.",
-    "risk": "unknown",
+    "description": "Transforms user prompts into optimized prompts using frameworks (RTF, RISEN, Chain of Thought, RODES, Chain of Density, RACE, RISE, STAR, SOAP, CLEAR, GROW)",
+    "risk": "safe",
     "source": "unknown"
   },
   {
@@ -4062,10 +4125,10 @@
     "id": "readme",
     "path": "skills/readme",
     "category": "uncategorized",
-    "name": "Readme",
-    "description": "You are an expert technical writer creating comprehensive project documentation. Your goal is to write a README.md that is absurdly thorough\u2014the kind of documentation you wish every project had.",
-    "risk": "unknown",
-    "source": "unknown"
+    "name": "readme",
+    "description": "When the user wants to create or update a README.md file for a project. Also use when the user says 'write readme,' 'create readme,' 'document this project,' 'project documentation,' or asks for help with README.md. This skill creates absurdly thorough documentation covering local setup, architecture, and deployment.",
+    "risk": "safe",
+    "source": "https://github.com/Shpigford/skills/tree/main/readme"
   },
   {
     "id": "receiving-code-review",
@@ -4603,8 +4666,8 @@
     "path": "skills/skill-creator",
     "category": "uncategorized",
     "name": "skill-creator",
-    "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
-    "risk": "unknown",
+    "description": "This skill should be used when the user asks to create a new skill, build a skill, make a custom skill, develop a CLI skill, or wants to extend the CLI with new capabilities. Automates the entire skill creation workflow from brainstorming to installation.",
+    "risk": "safe",
     "source": "unknown"
   },
   {
@@ -5385,10 +5448,10 @@
     "id": "vercel-deploy-claimable",
     "path": "skills/vercel-deploy-claimable",
     "category": "uncategorized",
-    "name": "Vercel Deploy Claimable",
-    "description": "Deploy any project to Vercel instantly. No authentication required.",
-    "risk": "unknown",
-    "source": "unknown"
+    "name": "vercel-deploy-claimable",
+    "description": "Deploy applications and websites to Vercel. Use this skill when the user requests deployment actions such as 'Deploy my app', 'Deploy this to production', 'Create a preview deployment', 'Deploy and give me the link', or 'Push this live'. No authentication required - returns preview URL and claimable deployment link.",
+    "risk": "safe",
+    "source": "https://github.com/vercel-labs/agent-skills/tree/main/skills/claude.ai/vercel-deploy-claimable"
   },
   {
     "id": "vercel-deployment",
@@ -5631,6 +5694,15 @@
     "name": "xlsx",
     "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas",
     "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "youtube-summarizer",
+    "path": "skills/youtube-summarizer",
+    "category": "uncategorized",
+    "name": "youtube-summarizer",
+    "description": "Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks",
+    "risk": "safe",
     "source": "unknown"
   },
   {
