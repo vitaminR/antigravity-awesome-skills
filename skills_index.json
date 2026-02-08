@@ -2997,6 +2997,15 @@
     "source": "unknown"
   },
   {
+    "id": "li-crucible",
+    "path": "skills/li-crucible",
+    "category": "uncategorized",
+    "name": "li-crucible",
+    "description": "Repo-specific LinkedIn-Branding Li-Crucible orchestrator skill (4-lane: Ideator → Drafter → Editor → Publisher). Use when a user invokes /crucible parameters (dN/fN/dateYYYY-MM-DD) or @Li-Crucible phases and you must enforce canonical paths, anti-drift rules, and Unicode-only LinkedIn copy constraints.",
+    "risk": "safe",
+    "source": "self"
+  },
+  {
     "id": "lint-and-validate",
     "path": "skills/lint-and-validate",
     "category": "uncategorized",

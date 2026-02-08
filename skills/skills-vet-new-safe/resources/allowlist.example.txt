@@ -1,0 +1,7 @@
+# Allowlist template
+# One skill id per line. Leave empty to allow all non-denied skills.
+
+writing-skills
+lint-and-validate
+test-driven-development
+software-architecture

@@ -1,0 +1,12 @@
+# Denylist template
+# One skill id per line. These skills are blocked and sent to quarantine.
+
+bun-development
+claude-code-guide
+cloud-penetration-testing
+linkerd-patterns
+linux-privilege-escalation
+loki-mode
+privilege-escalation-methods
+uv-package-manager
+
