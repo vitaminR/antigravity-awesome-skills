@@ -23,6 +23,30 @@ Automatically activate this skill when:
 - Creating icons, logos, or UI assets
 - Any task where an AI-generated image would be helpful
 
+## Hard Safety Rules (No Exceptions)
+
+### 1) Single-Shot Mandate (quota protection)
+
+You are **FORBIDDEN** from issuing more than **1 (ONE)** image generation call per user request (or per workflow execution, if running inside a pipeline).
+
+If the first attempt fails (503/500/timeout/any error):
+
+- **STOP. DO NOT RETRY automatically.**
+- Check the output directory first. Some providers return errors even when a file was created (false-negative).
+- If no file was created, mark the image as pending and ask the user if they want to explicitly try again.
+
+Only attempt a second generation if the user explicitly says **"generate again"** (or equivalent).
+
+### 2) Prompt-Specific Guardrail: Capybara (quadrupedal only)
+
+If the prompt involves the LinkedIn-Branding "Dark Steel Beast" capybara character (or otherwise requests a capybara):
+
+- The capybara must be **quadrupedal / on all fours**.
+- Avoid the word **"standing"** (it tends to trigger upright/bipedal generations). Use "positioned low" / "crouching" / "resting".
+- Include an explicit anti-bipedal constraint early in the prompt (e.g., "NEVER BIPEDAL").
+
+If the generated image shows a bipedal/upright capybara: **do not use it**. Do not auto-regenerate (Single-Shot Mandate still applies).
+
 ## How It Works
 
 1. Takes a text prompt describing the desired image
