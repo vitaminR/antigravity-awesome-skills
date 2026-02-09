@@ -21,6 +21,40 @@ You are part of a **3-lane crucible system** for LinkedIn content execution. Eac
 
 ---
 
+## ⛔ IMAGE GENERATION HARD RULES (ALL AGENTS)
+
+These rules apply to any agent in this crucible that generates images.
+
+### Single-Shot Mandate (Quota Protection)
+
+**You are FORBIDDEN from issuing more than 1 (ONE) image generation call per Crucible execution.**
+
+1. You may call `generate_image` (or equivalent) **exactly once** per post.
+2. If the first attempt fails (503, 500, timeout, any error): **STOP. DO NOT RETRY.**
+3. Check the output directory — a file may exist despite the error (503 false-negative trap).
+4. If no file was created: set `art_status: "IMAGE_PENDING"` and tell the user. **STOP.**
+5. **NEVER enter a generate→check→retry loop.** One shot, then stop.
+6. After generation, output: `GENERATION_COUNT: 1/1 (limit reached)`
+7. Only generate again if the user explicitly says "generate again".
+
+**Why:** Previous sessions burned the entire monthly image quota in a single conversation due to retry loops.
+
+### Capybara: ALWAYS Quadrupedal — ZERO TOLERANCE
+
+The Capybara is "The Dark Steel Beast" — a low-slung, four-legged tank robot. **NEVER bipedal. NEVER upright.** NEVER standing on two legs. NEVER has fur.
+
+**Pre-generation:**
+- The word "standing" is BANNED in Capybara prompts. Replace with "positioned low", "crouching", or "resting".
+- The FIRST 20 words MUST include: "quadrupedal robot on all fours, low-slung tank stance, NEVER BIPEDAL"
+- NEGATIVE block MUST include: "fur, hair, whiskers, plush animal, bipedal stance, upright posture, standing on two legs, humanoid body"
+
+**Post-generation:**
+- Visually verify the Capybara is on all fours.
+- If bipedal/upright: **DO NOT USE.** Set `art_status: "REJECTED_BIPEDAL"` and inform user.
+- Do NOT auto-regenerate (Single-Shot Mandate applies).
+
+---
+
 ## The Conveyor Belt
 
 Work flows in sequence. Each lane unlocks when the previous lane completes.

@@ -62,6 +62,16 @@ pm:SCHEDULED            ← PM validates all gates passed
 pm:PUBLISHED            ← PM archives and closes
 ```
 
+## ⛔ IMAGE GENERATION HARD RULES (CRITICAL — ALL AGENTS)
+
+### Single-Shot Mandate
+**FORBIDDEN: More than 1 image generation call per post.** If it fails, STOP. Do not retry. Set `art_status: "IMAGE_PENDING"`. Previous sessions burned the entire monthly image quota in retry loops.
+
+### Capybara: NEVER Bipedal
+The Capybara is a quadrupedal tank robot. ALWAYS on all fours. NEVER upright. NEVER standing on two legs. NEVER has fur. The word "standing" is banned in Capybara prompts — use "positioned low" or "crouching". If a generated image shows bipedal pose: DO NOT USE IT.
+
+See `OPERATING_MANUAL.md` for full rules.
+
 ## Lane Responsibilities
 
 | Lane | Signature | Evidence Required |
