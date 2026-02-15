@@ -2997,6 +2997,15 @@
     "source": "unknown"
   },
   {
+    "id": "dashboard",
+    "path": "skills/dashboard",
+    "category": "uncategorized",
+    "name": "dashboard",
+    "description": "Reusable mission-control dashboard pattern with telemetry contract, preflight gate, mode badges, and fanfare. Use when building or standardizing dashboards for multi-agent workflows.",
+    "risk": "safe",
+    "source": "self"
+  },
+  {
     "id": "li-crucible",
     "path": "skills/li-crucible",
     "category": "uncategorized",
