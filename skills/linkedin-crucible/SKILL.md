@@ -64,8 +64,25 @@ pm:PUBLISHED            ← PM archives and closes
 
 ## ⛔ IMAGE GENERATION HARD RULES (CRITICAL — ALL AGENTS)
 
-### Single-Shot Mandate
-**FORBIDDEN: More than 1 image generation call per post.** If it fails, STOP. Do not retry. Set `art_status: "IMAGE_PENDING"`. Previous sessions burned the entire monthly image quota in retry loops.
+### Two-Track Image Generation Protocol
+
+Image generation uses a **two-track system** to balance free native generation with paid API fallback:
+
+**Track A — Gemini/AntiGravity IDE (native `generate_image`):**
+- Try the IDE's native tool FIRST (free, ~20 nano-banana generations/day).
+- Max **2 attempts** per post. After each failure, check output dir for false-negative.
+- If both fail: fall back to Track B.
+
+**Track B — API via `generate_image.py` (OpenAI):**
+- `python scripts/generate_image.py --provider openai --max-cost-usd 0.25 --openai-quality standard --plot-md <path> --out <path>`
+- **SINGLE-SHOT MANDATE**: Exactly 1 API call. No retries. No provider fallback.
+- If it fails: set `art_status: "IMAGE_PENDING"` and STOP.
+
+**Copilot / Codex agents**: No native image gen. Go directly to Track B (single-shot).
+
+**Total worst-case per post: 3 calls (2 native + 1 API).** NEVER enter a generate→retry loop beyond these limits.
+
+Previous sessions burned the entire monthly image quota in retry loops. This protocol exists to prevent that permanently.
 
 ### Capybara: NEVER Bipedal
 The Capybara is a quadrupedal tank robot. ALWAYS on all fours. NEVER upright. NEVER standing on two legs. NEVER has fur. The word "standing" is banned in Capybara prompts — use "positioned low" or "crouching". If a generated image shows bipedal pose: DO NOT USE IT.
