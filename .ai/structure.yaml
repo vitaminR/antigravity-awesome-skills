@@ -1,0 +1,24 @@
+# CodePro Structure Mapping — AntiGravity
+version: 1
+repo: "sickn33/antigravity-awesome-skills"
+
+paths:
+  modules: []
+  artifacts:
+    - "skills/"
+  tests: []
+  docs: []
+  scripts: []
+  prds: []
+  manifests:
+    - ".ai/manifests/"
+
+dependency_rules:
+  enforced: false
+  notes: "Skills library — vendored. Not owned. Governance is advisory only."
+
+metadata:
+  primary_language: "javascript"
+  secondary_languages: ["markdown"]
+  ci_system: "none"
+  governed: false
