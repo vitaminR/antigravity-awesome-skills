@@ -235,6 +235,7 @@ Use this when the user’s intent is “start crucible for f##/FEB###/date…”
 - **{F} No drift**: Draft in `2026/**/02.Drafts/**/post.md`, then promote to Ready in `2026/**/03.Ready/**/post.md` intentionally.
 - **Plot auto-vote**: propose 3 Plots → use an OpenAI “harsh critic” judge when available, otherwise apply a fallback rubric (clarity, resonance, series fit) → record `selected_plot` + `selection_method` in `plot.md`.
 - **Research artifacts**: when research is required, ensure `research_pack.md` and `research_notes.md` exist.
+- **Human Spark Layer**: LI2 drafts and LI3 verifies one lived-in observation, 1-2 dry lines, and one sincere line that shows care for the humans affected by the problem. Use 1-4 emojis only as rhythm markers. Do not let the post turn into either a comedy sketch or a trauma diary.
 - **Image two-track protocol**: Gemini/AntiGravity agents try native `generate_image` first (max 2 attempts), then fall back to API (`generate_image.py --provider openai`, single-shot). Copilot/Codex agents go directly to API (single-shot). Total worst-case: 3 calls per post (2 native + 1 API). See `ART_PROMPT_ASSEMBLY.md` Section 0.1.
 - **{F} Runaway spend guard**: for repeated topic triggers, use `max_retries: 0` by default, respect per-topic trigger/run guards, and never bypass guard blocks unless the user explicitly approves.
 - **{F} Windows Gemini CLI failure rule**: if `[WinError 193]` appears, stop retriggers immediately and fix executable resolution (`gemini.cmd`/`.exe`/`.bat`), then retry once.
